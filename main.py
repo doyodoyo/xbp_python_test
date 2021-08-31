@@ -11,7 +11,7 @@ import pandas as pd
 import utils
 
 # dataset
-f = open('myfile.txt', 'r')
+f = open('myfile.txt', 'r', encoding='UTF-8')
 data = f.read()
 f.close()
 
