@@ -53,5 +53,5 @@ df_net = df_ex_word_count.groupby(
     ['word1', 'word2', 'word1_pos', 'word2_pos']).sum()['count'].sort_values(
     ascending=False).reset_index()
 
-utils.plot_draw_networkx(df_net, edge_threshold=10, k=0.5)
+utils.plot_draw_networkx(df_net, edge_threshold=4, k=0.5)
 # utils.plot_draw_networkx(df_net, word='災害')
